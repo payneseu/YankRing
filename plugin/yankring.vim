@@ -2868,7 +2868,8 @@ endif
 
 if g:yankring_enabled == 1
     " Create YankRing Maps
-    call s:YRMapsCreate()
+    " delet default mappsing, because it conflict with private env
+"    call s:YRMapsCreate()
 endif
 
 call s:YRInit()
